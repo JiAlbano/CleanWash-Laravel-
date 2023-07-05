@@ -24,5 +24,5 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['run', 'deploy', 'cleanwash', '--image', 'asia-east2-docker.pkg.dev/$PROJECT_ID/cleanwash-builds/img:$SHORT_SHA', '--region', 'asia-east2', '--platform', 'managed', '--allow-unauthenticated']
 images:
-- asia-east2-docker.pkg.dev/technosapiens/cleanwash-builds
+- asia-east2-docker.pkg.dev/technosapiens/cleanwash-builds/img:$SHORT_SHA
 # [END cloudbuild_run_example_builddeploy]
