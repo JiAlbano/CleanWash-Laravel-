@@ -17,6 +17,8 @@
 
         <style>
             body {
+     background: url("../assets/login.png") no-repeat center center fixed !important; /* Replace "../assets/login.jpeg" with the path to your desired image */
+    background-size: cover !important; /* Adjust the background image size to cover the entire body */
                 font-family: 'Nunito', sans-serif;
             }
         </style>
@@ -132,9 +134,3 @@
     </body>
 </html>
 
-<style>
-body {
-    background: url("../assets/login.png") no-repeat center center fixed !important; /* Replace "../assets/login.jpeg" with the path to your desired image */
-    background-size: cover !important; /* Adjust the background image size to cover the entire body */
-}
-</style>
