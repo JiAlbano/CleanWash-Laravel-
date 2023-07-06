@@ -20,6 +20,67 @@
     <!-- Styles -->
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  <style>
+            body {
+                font-family: 'Nunito', sans-serif;
+            }
+.vr {
+    opacity: 100%;
+    height: 50px;
+    width: 3px;
+    color: white;
+}
+
+.homepage{
+    background: url("../homewp.png") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+} 
+
+.custom-btn {
+    background-color: #1B488B;
+    border-color: #1B488B;
+}
+
+.custom-btn:hover {
+    background-color: #14467E;
+    border-color: #14467E;
+}
+
+.creation-hp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../wp2.png") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.creation-hp button {
+    margin-bottom: 2rem;
+}
+
+.creation-hp .center {
+    text-align: center;
+}
+
+.btn-log-in {
+    background-color: #0F1CF3;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-sign-up {
+    background-color: white;
+    border: 1px solid #0F1CF3;
+    color: #0F1CF3;
+}
+        </style>
 </head>
 <body>
 <div id="app">
