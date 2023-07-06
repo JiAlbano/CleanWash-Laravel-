@@ -36,7 +36,7 @@
 }
 
 .homepage{
-    background: url("../homewp.png") no-repeat!important;
+    background: url(""../assets/homewp.png"") no-repeat!important;
     height: 100vh !important;
     background-size: cover!important;
     background-attachment: fixed!important;
@@ -66,23 +66,23 @@
 }
 
 .creation-hp button {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem !important;
 }
 
 .creation-hp .center {
-    text-align: center;
+    text-align: center!important;
 }
 
 .btn-log-in {
-    background-color: #0F1CF3;
-    color: white;
-    margin-right: 10px;
+    background-color: #0F1CF3!important;
+    color: white!important;
+    margin-right: 10px!important;
 }
 
 .btn-sign-up {
-    background-color: white;
-    border: 1px solid #0F1CF3;
-    color: #0F1CF3;
+    background-color: white!important;
+    border: 1px solid #0F1CF3!important;
+    color: #0F1CF3!important;
 }
         </style>
 </head>
