@@ -37,7 +37,6 @@
 
 .homepage{
     background: url(""../assets/homewp.png"") no-repeat!important;
-    height: 100vh !important;
     background-size: cover!important;
     background-attachment: fixed!important;
     background-position: center!important;
