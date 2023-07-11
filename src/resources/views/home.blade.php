@@ -15,7 +15,7 @@
                         "Our online appointment booking platform offers a convenient way for busy car owners to schedule car
                         wash services anytime and anywhere without the hassle of physically visiting a car wash facility."
                     </p>
-                    <a href="{{ route('viewAppointments') }}" class="btn custom-btn text-white px-4 py-2 text-uppercase">Get Started</a>
+                    <a href="{{ route('requestform') }}" class="btn custom-btn text-white px-4 py-2 text-uppercase">Get Started</a>
                     <a href="{{ route('requestform') }}" class="btn"><img src="{{ asset('assets/arrow.png') }}" alt=""> </a>
                 @endif
             @else
