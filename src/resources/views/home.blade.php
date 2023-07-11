@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="homepage vh-100">
-    <div class="d-flex align-items-center" style="height: 50%;">
+<div class="homepage">
+    <div class="d-flex align-items-center" style="height: 60%;">
         <div class="container-fluid">
             @auth
                 @if (auth()->user()->is_admin)
@@ -36,5 +36,7 @@
 body {
     background: url("../assets/homewp.png") no-repeat center center fixed !important; /* Replace "../assets/login.jpeg" with the path to your desired image */
     background-size: cover !important; /* Adjust the background image size to cover the entire body */
+    background-attachment: fixed!important;
+    background-position: center !important;
 }
 </style>
