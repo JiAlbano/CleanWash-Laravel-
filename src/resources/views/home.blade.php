@@ -36,7 +36,5 @@
 body {
     background: url("../assets/homewp.png") no-repeat center center fixed !important; /* Replace "../assets/login.jpeg" with the path to your desired image */
     background-size: cover !important; /* Adjust the background image size to cover the entire body */
-    background-attachment: fixed!important;
-    background-position: center !important;
 }
 </style>
