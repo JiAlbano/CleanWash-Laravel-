@@ -10,8 +10,11 @@
     <title>{{ config('app.name', 'CleanWash') }}</title>
     
     <!-- Scripts -->
+    <script src="{{ asset('assets/js/app.js') }}" defer></script>
     <script src="{{mix('js/app.js')}}"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap API-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <!-- Fonts -->
