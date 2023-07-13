@@ -9,7 +9,12 @@
 
     <title>{{ config('app.name', 'CleanWash') }}</title>
     
- 
+    <!-- Scripts -->
+      <script src="{{mix('js/app.js')}}"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   
     <!-- Bootstrap API-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -86,9 +91,7 @@
 }
         </style>
 </head>
-   <!-- Scripts -->
-      <script src="{{mix('js/app.js')}}"></script>
-    <script src="js/bootstrap.min.js"></script>
+
 <body>
 <div id="app">
     <nav class="navbar navbar-expand-md" style="background-color: #1B488B;">
