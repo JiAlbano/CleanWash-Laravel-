@@ -10,12 +10,11 @@
     <title>{{ config('app.name', 'CleanWash') }}</title>
     
     <!-- Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"></link>
       <script src="{{mix('js/app.js')}}"></script>
     <script src="js/bootstrap.min.js"></script>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+crossorigin="anonymous"></script>
   
     <!-- Bootstrap API-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
