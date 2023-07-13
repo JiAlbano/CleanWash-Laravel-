@@ -10,7 +10,7 @@
     <title>{{ config('app.name', 'CleanWash') }}</title>
     
     <!-- Scripts -->
-    <script src="{{ asset('assets/js/app.js') }}" defer></script>
+    
     <script src="{{mix('js/app.js')}}"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap API-->
