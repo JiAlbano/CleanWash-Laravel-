@@ -10,8 +10,6 @@
     <title>{{ config('app.name', 'CleanWash') }}</title>
     
     <!-- Scripts -->
-
-<script src="{{ asset('js/app.js') }}" defer></script>
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 
@@ -154,7 +152,7 @@
                         <a class="dropdown-item" href="{{ route('logout') }}"
                             onclick="event.preventDefault();
                             document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
+                            Logout
                             </a>
 
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
